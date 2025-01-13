@@ -4,6 +4,15 @@
 **Tijd:** 09:30 \- 16:30  
 **Locatie:** \[Belpaire \- 05.N.09\]
 
+---
+
+## Table of Contents
+
+- [Agenda](#agenda)
+- [Evaluatie van huidige IT-documentatie](#evaluatie-van-huidige-it-documentatie)
+- [Introductie tot markdown en versiebeheer](#introductie-tot-markdown-en-versiebeheer)
+- [Hands-on: documentatie structureren](#hands-on-documentatie-structureren)
+- [Intranet integratie](#intranet-integratie)
 
 ---
 
@@ -16,7 +25,7 @@
   * Verbeteren van de intranetstructuur en documentatie. 
   * Implementeren van een Markdown-structuur met versiebeheer.
 
-### Evaluatie van Huidige IT-Documentatie (09:45 – 10:30)
+### Evaluatie van huidige IT-documentatie (09:45 – 10:30)
 
 * **Inventarisatie:** Huidige intranet pagina's , handleidingen en richtlijnen.  
 * **Discussiepunten:**  
@@ -25,27 +34,26 @@
 
 ###  Pauze (10:30 – 11:00)
 
-###  Introductie tot Markdown en versiebeheer (11:00 – 12:30)
+###  Introductie tot markdown en versiebeheer (11:00 – 12:30)
 
 * **Demonstratie:**  
   * Markdown-syntax   
   * Werken met Git: repositories, branches en commits.   
   * Demo materials MkDocs site   
-* **Praktijkoefening:**  
-  Converteer een voorbeeldhandleiding naar Markdown.
 
 ###  Lunchpauze (12:30 – 13:30)
 
-###  Hands-On: Documentatie structureren (13:30 – 14:30)
+###  Hands-on: documentatie structureren (13:30 – 14:30)
 
 * **Opzetten:** Een hiërarchie voor Markdown-documenten.  
 * **Verdeling:** Wie doet wat?
+* **Praktijkoefening:** Converteer een voorbeeldhandleiding naar Markdown.
 
 
-###  Intranet Integratie (14:45 – 16:15)
+###  Intranet integratie (14:45 – 16:15)
 
 * **Toepassing:** Markdown-documenten in het intranet.  
-* **Automatisering:** CI/CD voor documentatie via GitHub.
+* **Automatisering:** Demo CI/CD voor documentatie via GitHub.
 
 ###  Afsluiting (16:15 – 16:30)
 
@@ -62,6 +70,8 @@
 👎 Momenteel is het intranet een samenraapsel van google site pagina's en google drive documenten met vaak (heel) korte inhoud. Die al dan niet naar elkaar doorverwijzen , je bent al heel gauw het overzicht kwijt. Er is bovenaan wel een menu dat je kan gebruiken , maar niet echt user friendly.  
 
 👎 De opmaak verschilt ook vaak van pagina tot pagina.
+
+👎 Er is geen versiebeheer
 
 
 ## Introductie tot Markdown en Versiebeheer
@@ -129,12 +139,30 @@ Meest basic syntax:
 |                 | - Third item                           |
 | Code            | ``` `code` ```                         |
 | Horizontal Rule | ---                                    |
+| Newline         | min 2 spaces at end of line            |
 | Link            | [title](https://www.example.com)       |
-| Image           | ![alt text](image.jpg)                 |
+| Image           | ![alt text](martijn.png)                 |
 
 [Probeer zelf met deze tutorial ](https://tylingsoft.github.io/tutorial.md/#whats-markdown)
 
-### Werken met GIT
+### Waarom GIT ?
+Git is algemeen bekend als een krachtig hulpmiddel voor ontwikkelaars om code te beheren, wijzigingen bij te houden en samen te werken aan softwareprojecten. Niet-ontwikkelaars, kunnen ook aanzienlijk profiteren van het gebruik van Git. We denken dan in de eerste plaats aan het bijhouden van documentatie of het opvolgen van projecten.
 
-https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners 
-https://code.visualstudio.com/docs/sourcecontrol/intro-to-git 
+VDoor Git te gebruiken voor documentatie, kunnen we als team een versiegeschiedenis van wijzigingen bijhouden, waardoor het eenvoudig is om te zien hoe documenten in de loop van de tijd zijn geëvolueerd en indien nodig terug te keren naar eerdere versies.
+
+De collega's van BMK hebben enkele duideljke [tutorials]( https://tutorials.inbo.be/search/?q=git) gemaakt!  
+Goede basis uitleg op [Youtube ](https://www.youtube.com/watch?v=eLmpKKaQL54)   
+[Tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) Voor beginners  
+
+---
+### Nieuwe site op basis van markdown docs.
+
+Er is een nieuwe [intranetsite](https://inbo.github.io/ict-intranet/) aangemaakt, die de kracht van markdown wil aantonen .  In combinatie met een statische html generator (Hugo, Mkdocs..)kunnen we heel snel met onze markdown documenten een intranet site opbouwen. Maar evengoed ook een chatbot , of een mobiele app. Daar zit net de kracht van markdown documenten.
+
+## Hands-on: documentatie structureren
+
+Een hiërarchie voor Markdown-documenten.
+* **Verdeling:** Wie doet wat?
+
+
+* **Praktijkoefening:** Converteer een voorbeeldhandleiding naar Markdown.
