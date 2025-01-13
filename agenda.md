@@ -136,5 +136,5 @@ Meest basic syntax:
 
 ### Werken met GIT
 
-Create pull requests
-To create pull requests in VS Code, hover over the GitHub Pull Requests title and click the + sign. Choose the target branch for the pull request, press enter, and relax—you’ve opened your pull request.
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners 
+https://code.visualstudio.com/docs/sourcecontrol/intro-to-git 
