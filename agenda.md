@@ -135,3 +135,6 @@ Meest basic syntax:
 [Probeer zelf met deze tutorial ](https://tylingsoft.github.io/tutorial.md/#whats-markdown)
 
 ### Werken met GIT
+
+Create pull requests
+To create pull requests in VS Code, hover over the GitHub Pull Requests title and click the + sign. Choose the target branch for the pull request, press enter, and relax—you’ve opened your pull request.
