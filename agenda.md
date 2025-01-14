@@ -172,3 +172,5 @@ Een hiërarchie voor Markdown-documenten.
  Continuous integration en continuous deployment (CI/CD) zijn onmisbare praktijken geworden om efficiënt software van hoge kwaliteit te leveren. Met CI/CD kunnen developers het proces van bouwen, testen en deployen van codewijzigingen automatiseren, het risico op menselijke fouten verkleinen en snellere iteraties mogelijk maken.  Maar we kunnen dit ook gebruiken om onze documentatie op een verstandige manier te gaan beheren en deployen.   
 
 Een kleine demo...  
+
+---
