@@ -138,10 +138,10 @@ Meest basic syntax:
 |                 | - Second item                          |
 |                 | - Third item                           |
 | Code            | ``` `code` ```                         |
-| Horizontal Rule | ---                                    |
+| Horizontal Rule | '--- '                                  |
 | Newline         | min 2 spaces at end of line            |
 | Link            | [title](https://www.example.com)       |
-| Image           | ![alt text](martijn.png)                 |
+| Image           | ![alt blabla](martijn.png)                 |
 
 [Probeer zelf met deze tutorial ](https://tylingsoft.github.io/tutorial.md/#whats-markdown)
 
